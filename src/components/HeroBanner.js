@@ -31,7 +31,12 @@ const HeroBanner = () => {
         Explore exercises
       </Button>
 
-      <img src={HeroBannerImage} alt="Banner" className='hero-banner-img' style={{ zIndex: 1 }} />
+      <img 
+        src={HeroBannerImage}
+        alt="Banner"
+        className='hero-banner-img'
+        style={{ zIndex: 1, height: '870px', objectFit: 'contain' }} 
+      />
 
       <Typography 
         fontSize='200px'
