@@ -9,7 +9,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
 
   return (
     <Box sx={{ marginTop: { lg: '200px', xs: '20px' }}} p='20px'>
-      <Typography variant='h3'>
+      <Typography variant='h3' mb='40px'>
           Watch <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>{name}</span> videos
       </Typography>
       <Stack 
@@ -30,6 +30,14 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
             rel='noreferrer'
           >
             <img src={item.video.thumbnails[0].url} alt={item.video.title} />
+            <Box>
+              <Typography variant='h5' color='#000'>
+                {item.video.title}
+              </Typography>
+              <Typography variant='h6' color='#808080'>
+                {item.video.channelName}
+              </Typography>
+            </Box>
           </a>
         ))}
       </Stack>
