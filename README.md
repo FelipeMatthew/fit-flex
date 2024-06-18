@@ -1,6 +1,4 @@
 <h1 align="center">
-  <br>
-  <br>
  🔱 Fit Flex 🔱
   <br>
 </h1>
