@@ -10,7 +10,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
   return (
     <Box sx={{ marginTop: { lg: '60px', xs: '20px' }}} p='20px'>
       <Typography variant='h3' mb='40px'>
-          Watch <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>{name}</span> videos
+          Watch <span style={{ color: '#5D3FD3', textTransform: 'capitalize' }}>{name}</span> videos
       </Typography>
       <Stack 
         justifyContent='flex-start' 

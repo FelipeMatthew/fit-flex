@@ -22,7 +22,7 @@ const Navbar = () => {
     >
       <Link to='/'>
         <img src={Logo} alt='logo' style={{
-          width: '48px', height: '48px', margin: '0 20px'
+          width: 'auto', height: '48px', margin: '0 20px'
         }}/>
       </Link>
       <Stack
@@ -32,13 +32,13 @@ const Navbar = () => {
         alignItems='flex-end'
       >
         <Link to='/' style={{ 
-          textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625'
+          textDecoration: 'none', color: '#301934', borderBottom: '3px solid #5D3FD3'
         }}>
           Home
         </Link>
         
         <a href="#exercises" style={{
-          textDecoration: 'none', color: '#3A1212'
+          textDecoration: 'none', color: '#301934'
         }}>Exercises</a>
       </Stack>
     </Stack>
